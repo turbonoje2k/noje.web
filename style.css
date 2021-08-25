@@ -1,54 +1,60 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 /* Style the navigation menu */
 .topnav {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    background-color: #000;
-    position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: flex;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: black;
-    display: flex;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  .footericon{
-    width: 100%;
-  }
-  p{
-    color: white;
-    text-align: center;
-  }
- 
-.icones{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: flex;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footericon {
+  width: 100%;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.icones {
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  
+
+}
+
+.icones img {
+  width: 200px;
 }
