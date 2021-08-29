@@ -27,7 +27,7 @@ body {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: rgb(0, 0, 0);
   display: flex;
 }
 
@@ -39,6 +39,11 @@ body {
 
 .footericon {
   width: 100%;
+}
+
+footer{
+  position: absolute;
+  bottom:0;
 }
 
 p {
@@ -57,4 +62,9 @@ p {
 
 .icones img {
   width: 200px;
+}
+.apropos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
